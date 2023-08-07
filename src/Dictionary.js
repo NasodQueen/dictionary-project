@@ -3,13 +3,17 @@ import { useState } from "react";
 
 import axios from "axios";
 
+import Results from "./Results";
+
 import "./Dictionary.css";
 
 export default function Dictionary() {
   const [keyword, setKeyword] = useState("");
+  const [apiResponse, setApiResponse] = useState("");
 
   function handleResponse(response) {
-    console.log(response);
+    console.log(response.data[0]);
+    setApiResponse(response.data[0]);
   }
 
   //API documentation: https://dictionaryapi.dev
@@ -35,7 +39,8 @@ export default function Dictionary() {
           onChange={handleKeywordChange}
         />
         <input type="submit" value="Search" />
-      </form>{" "}
+      </form>
+      <Results results={apiResponse} />
     </div>
   );
 }
