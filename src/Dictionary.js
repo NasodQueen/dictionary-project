@@ -37,8 +37,9 @@ export default function Dictionary() {
           name="search-term"
           placeholder="Enter your word"
           onChange={handleKeywordChange}
+          className="form-search"
         />
-        <input type="submit" value="Search" />
+        <input type="submit" value="Search" className="form-button" />
       </form>
       <Results results={apiResponse} />
     </div>

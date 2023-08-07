@@ -1,5 +1,30 @@
+:root {
+  /* --dark-color: #7bdff2ff;
+  --light-color: #b2f7efff;
+  --background: #eff7f6ff;
+  --light-accent: #f7d6e0ff;
+  --dark-accent: #f2b5d4ff; */
+
+  --dark-accent: #7bdff2ff;
+  --light-accent: #b2f7efff;
+  --background: #eff7f6ff;
+  --light-color: #f7d6e0ff;
+  --dark-color: #f2b5d4ff;
+}
+
+html {
+  background-color: var(--background);
+}
+
+.App {
+  margin: 50px 100px;
+}
+
 .App-header {
   font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin: 25px 0;
 }
 
 footer {
