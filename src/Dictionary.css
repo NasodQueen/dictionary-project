@@ -10,7 +10,7 @@ h3 {
   margin: 0;
   display: inline;
   position: relative;
-  top: 2.4rem;
+  top: 2.2rem;
   left: 1rem;
   padding: 0 7px;
   background-color: var(--background);
@@ -54,8 +54,8 @@ form {
 
 .definition-example,
 .Results {
-  border: solid 5px var(--accent);
-  padding: 12px;
+  border: solid 2px var(--accent);
+  padding: 10px;
   background: var(--background2) content-box;
   border-radius: 10px;
   margin: 25px 0;

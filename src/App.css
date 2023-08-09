@@ -69,8 +69,25 @@ html {
   letter-spacing: 5px;
 }
 
+.dictionary-phonetics,
+.dictionary-meaning,
+.header-enter-text {
+  text-align: center;
+}
+
 footer {
   margin: 10px;
   font-size: 14px;
-  text-align: center;
+}
+
+footer h3 {
+  color: var(--primary);
+}
+
+.footer-text {
+  border: solid 2px var(--primary);
+  padding: 12px;
+  background: var(--secondary) content-box;
+  border-radius: 10px;
+  margin: 25px 0;
 }
