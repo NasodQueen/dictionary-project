@@ -1,9 +1,10 @@
 h2 {
   opacity: 0.8;
-  padding: 10px;
+  padding: 10px 5px;
   margin: 5px;
   font-family: var(--font-heading);
   letter-spacing: 2px;
+  display: inline;
 }
 
 h3 {
@@ -20,8 +21,8 @@ h3 {
 
 h4 {
   font-weight: normal;
-  padding-left: 10px;
   margin: 0 0 10px 0;
+  display: inline;
 }
 
 p {
@@ -61,11 +62,24 @@ form {
   margin: 25px 0;
 }
 
-.button {
+.basics-grid {
+  display: grid;
+  grid-template-columns: 0.5fr 10fr;
+  align-items: center;
+}
+
+a,
+a:visited {
+  color: var(--secondary);
+}
+
+.sound-button {
   border-radius: 50px;
   border: 2px solid var(--primary);
   background-color: var(--primary);
   color: var(--secondary);
   margin: 5px;
+  padding: 4px 4px 4px 8px;
   font-family: var(--font-paragraph-2);
+  max-width: 50px;
 }
