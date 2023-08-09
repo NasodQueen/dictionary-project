@@ -1,18 +1,23 @@
-h3 {
-  margin: 0;
-  color: var(--dark-color);
-  background: var(--background);
-  position: fixed;
-  left: 7rem;
-  padding: 0 7px;
-  line-height: 5px;
-}
-
 h2 {
   opacity: 0.8;
   padding: 10px;
   margin: 5px;
+  font-family: var(--font-heading);
+  letter-spacing: 2px;
 }
+
+h3 {
+  margin: 0;
+  display: inline;
+  position: relative;
+  top: 2.4rem;
+  left: 1rem;
+  padding: 0 7px;
+  background-color: var(--background);
+  color: var(--accent);
+  font-family: var(--font-accent);
+}
+
 h4 {
   font-weight: normal;
   padding-left: 10px;
@@ -22,6 +27,7 @@ h4 {
 p {
   padding: 10px;
   margin: 5px;
+  font-family: var(--font-paragraph-2);
 }
 
 form {
@@ -32,29 +38,34 @@ form {
 .form-search {
   border-top-left-radius: 50px;
   border-bottom-left-radius: 50px;
-  border: 3px solid var(--dark-color);
+  border: 3px solid var(--primary);
+  border-right: none;
   font-size: 18px;
 }
 
 .form-button {
   border-top-right-radius: 50px;
   border-bottom-right-radius: 50px;
-  border: 3px solid var(--dark-color);
+  border: 3px solid var(--primary);
+  background-color: var(--secondary);
+  color: var(--accent);
   font-size: 18px;
 }
 
 .definition-example,
 .Results {
-  border: solid 5px var(--dark-color);
+  border: solid 5px var(--accent);
   padding: 12px;
-  background: var(--light-color) content-box;
+  background: var(--background2) content-box;
   border-radius: 10px;
   margin: 25px 0;
 }
 
 .button {
-  border-radius: 10px;
-  border: 2px solid var(--dark-accent);
-  background-color: var(--light-accent);
+  border-radius: 50px;
+  border: 2px solid var(--primary);
+  background-color: var(--primary);
+  color: var(--secondary);
   margin: 5px;
+  font-family: var(--font-paragraph-2);
 }
