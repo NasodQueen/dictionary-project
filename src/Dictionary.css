@@ -91,10 +91,14 @@ a:visited {
   padding: 4px 4px 4px 8px;
   font-family: var(--font-paragraph-2);
   max-width: 50px;
+  transition: all ease-in-out 100ms;
 }
 
 .sound-button:hover {
   cursor: pointer;
+  border: 2px solid var(--accent);
+  background-color: var(--accent);
+  color: var(--background2);
 }
 
 .sound-button-disabled {
