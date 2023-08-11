@@ -57,7 +57,8 @@ html {
 }
 
 .App {
-  margin: 50px 100px;
+  margin: 0 auto;
+  max-width: 90vw;
 }
 
 .App-header {

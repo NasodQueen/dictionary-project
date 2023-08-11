@@ -1,14 +1,13 @@
 h2 {
   opacity: 0.8;
   padding: 10px 5px;
-  margin: 5px;
+  margin: 10px;
   font-family: var(--font-heading);
   letter-spacing: 2px;
   display: inline;
 }
 
 h3 {
-  margin: 0;
   display: inline;
   position: relative;
   top: 2.2rem;
@@ -21,8 +20,9 @@ h3 {
 
 h4 {
   font-weight: normal;
-  margin: 0 0 10px 0;
+  margin: 0 0 10px 5px;
   display: inline;
+  font-size: 20px;
 }
 
 p {
@@ -31,25 +31,34 @@ p {
   font-family: var(--font-paragraph-2);
 }
 
+.dictionary-meaning {
+  margin-top: 10px;
+}
+.header-enter-text {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
 form {
   text-align: center;
-  margin: 30px 0;
+  margin: 5px 0;
 }
 
 .form-search {
-  border-top-left-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
   border: 3px solid var(--primary);
+  background-color: var(--secondary);
   border-right: none;
   font-size: 18px;
 }
 
 .form-button {
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
   border: 3px solid var(--primary);
-  background-color: var(--secondary);
-  color: var(--accent);
+  background-color: var(--primary);
+  color: var(--background2);
   font-size: 18px;
 }
 
@@ -64,8 +73,8 @@ form {
 
 .basics-grid {
   display: grid;
-  grid-template-columns: 0.5fr 10fr;
-  align-items: center;
+  grid-template-columns: repeat(8, 1fr);
+  margin: 10px;
 }
 
 a,
@@ -82,4 +91,28 @@ a:visited {
   padding: 4px 4px 4px 8px;
   font-family: var(--font-paragraph-2);
   max-width: 50px;
+}
+
+.sound-button:hover {
+  cursor: pointer;
+}
+
+.sound-button-disabled {
+  border-radius: 50px;
+  border: 2px dashed var(--primary);
+  background-color: var(--secondary);
+  color: var(--primary);
+  margin: 5px;
+  padding: 4px 4px 4px 8px;
+  font-family: var(--font-paragraph-2);
+  opacity: 0.8;
+  max-width: 50px;
+}
+
+.Definitions {
+  margin: 10px 10px 0 10px;
+}
+
+.Examples {
+  margin: 0 10px 10px 10px;
 }
