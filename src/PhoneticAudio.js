@@ -18,7 +18,7 @@ export default function PhoneticAudio(props) {
 
   if (props.phonetics.audio) {
     return (
-      <div>
+      <div className="phonetics-audio">
         <button className="sound-button" onClick={handledClick}>
           {/* <a href={props.phonetics.audio} rel="noreferrer" target="_blank"> */}
           <IconVolume size={24} />
@@ -28,7 +28,7 @@ export default function PhoneticAudio(props) {
     );
   } else {
     return (
-      <div>
+      <div className="phonetics-audio">
         <button className="sound-button-disabled">
           <IconVolumeOff size={24} />
         </button>

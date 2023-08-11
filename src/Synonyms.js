@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./Synonyms.css";
+
 export default function Synonyms(props) {
   if (props.synonyms) {
     return (
@@ -10,6 +12,6 @@ export default function Synonyms(props) {
       </ul>
     );
   } else {
-    return null;
+    return <ul className="Synonyms"></ul>;
   }
 }

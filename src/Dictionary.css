@@ -22,7 +22,7 @@ h4 {
   font-weight: normal;
   margin: 0 0 10px 5px;
   display: inline;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 p {
@@ -51,6 +51,7 @@ form {
   background-color: var(--secondary);
   border-right: none;
   font-size: 18px;
+  padding: 5px;
 }
 
 .form-button {
@@ -60,6 +61,7 @@ form {
   background-color: var(--primary);
   color: var(--background2);
   font-size: 18px;
+  padding: 5px;
 }
 
 .definition-example,
@@ -72,9 +74,17 @@ form {
 }
 
 .basics-grid {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
   margin: 10px;
+}
+
+.phonetics-grid {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+
+.phonetics-audio,
+.phonetics-text {
+  display: inline;
 }
 
 a,
@@ -119,4 +129,8 @@ a:visited {
 
 .Examples {
   margin: 0 10px 10px 10px;
+}
+
+.spacer-div {
+  margin-bottom: 10px;
 }

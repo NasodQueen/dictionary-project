@@ -13,17 +13,18 @@ export default function Results(props) {
       <div>
         <h3>basics</h3>
         <div className="Results">
+          <div className="spacer-div"></div>
           <h2>{props.results.word}</h2>
-          <div className="basics-grid">
+          <ul className="basics-grid">
             {props.results.phonetics.map(function (phonetic, index) {
               return (
-                <div key={index} className="phonetics-grid">
+                <li key={index} className="phonetics-grid">
                   <PhoneticAudio phonetics={phonetic} />
                   <PhoneticText phonetics={phonetic} />
-                </div>
+                </li>
               );
             })}
-          </div>
+          </ul>
         </div>
         {props.results.meanings.map(function (meaning, index) {
           return (

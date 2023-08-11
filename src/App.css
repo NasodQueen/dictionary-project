@@ -79,6 +79,7 @@ html {
 footer {
   margin: 10px;
   font-size: 14px;
+  max-width: 90vw;
 }
 
 footer h3 {
@@ -91,4 +92,13 @@ footer h3 {
   background: var(--secondary) content-box;
   border-radius: 10px;
   margin: 25px 0;
+}
+
+.App a {
+  color: var(--accent);
+  transition: all ease-in-out 100ms;
+}
+
+a:hover {
+  color: var(--primary);
 }
