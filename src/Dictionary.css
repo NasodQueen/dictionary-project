@@ -35,7 +35,7 @@ p {
   margin-top: 10px;
 }
 .header-enter-text {
-  margin-top: 20px;
+  margin-top: 30px;
   font-weight: bold;
 }
 
@@ -65,7 +65,8 @@ form {
 }
 
 .definition-example,
-.Results {
+.Results,
+.Photos {
   border: solid 2px var(--accent);
   padding: 10px;
   background: var(--background2) content-box;
