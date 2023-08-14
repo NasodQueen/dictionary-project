@@ -20,9 +20,7 @@ export default function PhoneticAudio(props) {
     return (
       <div className="phonetics-audio">
         <button className="sound-button" onClick={handledClick}>
-          {/* <a href={props.phonetics.audio} rel="noreferrer" target="_blank"> */}
           <IconVolume size={24} />
-          {/* </a> */}
         </button>
       </div>
     );

@@ -19,8 +19,8 @@ export default function Results(props) {
             {props.results.phonetics.map(function (phonetic, index) {
               return (
                 <li key={index} className="phonetics-grid">
-                  <PhoneticAudio phonetics={phonetic} />
                   <PhoneticText phonetics={phonetic} />
+                  <PhoneticAudio phonetics={phonetic} />
                 </li>
               );
             })}

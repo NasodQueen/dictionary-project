@@ -18,6 +18,10 @@ h3 {
   font-family: var(--font-accent);
 }
 
+.photo-h3 {
+  top: 2.4rem;
+}
+
 h4 {
   font-weight: normal;
   margin: 0 0 10px 5px;
@@ -74,10 +78,6 @@ form {
   margin: 25px 0;
 }
 
-.basics-grid {
-  margin: 10px;
-}
-
 .phonetics-grid {
   padding-left: 10px;
   margin-top: 10px;
@@ -85,7 +85,18 @@ form {
 
 .phonetics-audio,
 .phonetics-text {
-  display: inline;
+  /* display: inline; */
+}
+
+.basics-grid {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
 }
 
 a,
@@ -134,4 +145,20 @@ a:visited {
 
 .spacer-div {
   margin-bottom: 10px;
+}
+
+.Photos {
+  margin-top: 30px;
+}
+
+.photo-grid {
+  margin: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+}
+
+.photo-single {
+  max-width: 100%;
+  border-radius: 10px;
 }
