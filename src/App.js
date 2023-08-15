@@ -29,7 +29,14 @@ function App() {
             >
               Steph
             </a>{" "}
-            (that's me!)
+            (that's me!) and hosted on{" "}
+            <a
+              href="https://github.com/NasodQueen/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              GitHub
+            </a>
             <br />
             Music choice:{" "}
             <a
