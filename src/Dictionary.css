@@ -24,7 +24,6 @@ h3 {
 
 h4 {
   font-weight: normal;
-  margin: 0 0 10px 5px;
   display: inline;
   font-size: 1rem;
 }
@@ -79,24 +78,22 @@ form {
 }
 
 .phonetics-grid {
-  padding-left: 10px;
+  /* padding-left: 10px; */
   margin-top: 10px;
 }
 
-.phonetics-audio,
-.phonetics-text {
-  /* display: inline; */
-}
-
 .basics-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 7rem);
   margin: 0;
-  padding: 0;
+  padding: 10px;
   list-style: none;
 }
 
 li {
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 a,

@@ -7,7 +7,6 @@ import PhoneticText from "./PhoneticText";
 import "./Dictionary.css";
 
 export default function Results(props) {
-  console.log(props.results);
   if (props.results) {
     return (
       <div>

@@ -37,7 +37,7 @@ function App() {
             >
               Mr. Shakedown Theme
             </a>{" "}
-            (because sometimes you gotta do it to'em)
+            <small>(because sometimes you gotta do it to'em)</small>
             <br />
             Color choice:{" "}
             <a

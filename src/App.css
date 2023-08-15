@@ -1,35 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora&family=Montserrat:wght@700&family=Voces&display=swap");
 
 :root {
-  /* Blue and beige - light mode*/
-  /* --text: #000000;
-  --background: #f8eee7;
-  --primary: #1b445f;
-  --secondary: #e9c6af;
-  --accent: #2d719f; */
-
-  /* Blue and beige - dark mode*/
-  /* --text: #f8eee7;
-  --background: #000000;
-  --primary: #1b445f;
-  --secondary: #040201;
-  --accent: #88bbdd; */
-
-  /* Purple - light mode*/
-  /* --text: #040104;
-  --background: #f4e4f7;
-  --primary: #b848c7;
-  --secondary: #f0d8f3;
-  --accent: #b33cc3; */
-
-  /* Purple - dark mode*/
-  /* --text: #f4e4f7;
-  --background: #040104;
-  --primary: #b848c7;
-  --secondary: #240c27;
-  --accent: #e1b1e7; */
-
-  /* B00B - light mode*/
+  /*light mode*/
   --text: #000000;
   --background: #f8eee7;
   --background2: #f1bada;
@@ -37,7 +9,7 @@
   --secondary: #d7d5d7;
   --accent: #b00b69;
 
-  /* B00B - dark mode*/
+  /*dark mode*/
   /* --text: #fafafa;
   --background: #000000;
   --primary: #3c3c39;
@@ -77,13 +49,16 @@ html {
 }
 
 footer {
-  margin: 10px;
-  font-size: 14px;
-  max-width: 90vw;
+  margin: auto;
+  max-width: 70vw;
 }
 
 footer h3 {
   color: var(--primary);
+}
+
+footer p {
+  font-size: 14px;
 }
 
 .footer-text {

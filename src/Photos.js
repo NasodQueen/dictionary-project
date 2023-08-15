@@ -3,7 +3,6 @@ import React from "react";
 import "./Dictionary.css";
 
 export default function Photos(props) {
-  console.log(props.photos);
   if (props.photos) {
     return (
       <div>
